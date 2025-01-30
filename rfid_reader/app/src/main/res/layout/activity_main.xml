@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Other views can go here -->
+    <TextView android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Scan an NFC Tag"
+        android:gravity="center"
+        android:textSize="18sp"
+        xmlns:android="http://schemas.android.com/apk/res/android" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_marginTop="20dp"
+        android:text="Save to Firebase" />
+</LinearLayout>
+
+
+
+
+

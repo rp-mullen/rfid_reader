@@ -40,7 +40,7 @@ class _FirebaseDataScreenState extends State<FirebaseDataScreen> {
   void _fetchData() {
     _databaseRef.onValue.listen((event) {
       final data = event.snapshot.value;
-      print("🔥 Raw Firebase data: $data");
+      print("Raw Firebase data: $data");
 
       if (data == null) {
         print("No data found.");

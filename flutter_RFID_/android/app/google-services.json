@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "99581400570",
+    "firebase_url": "https://rfid-reader-67828-default-rtdb.firebaseio.com",
+    "project_id": "rfid-reader-67828",
+    "storage_bucket": "rfid-reader-67828.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99581400570:android:4e448787edad1800b24043",
+        "android_client_info": {
+          "package_name": "com.example.flutter_rfid"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBY-KMTwcV7ltbE3hWhpZ6hdxQ2aUKYn-U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99581400570:android:7ffd2575e3d13db8b24043",
+        "android_client_info": {
+          "package_name": "com.example.rfidreader"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBY-KMTwcV7ltbE3hWhpZ6hdxQ2aUKYn-U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
